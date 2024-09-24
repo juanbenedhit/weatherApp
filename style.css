@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#weather-result {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+#weather-result .card-body {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+#weather-icon {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+#city-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#temperature {
+    font-size: 2em;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#description {
+    font-size: 1em;
+    font-weight: 500;
+    color: #666;
+    text-transform: capitalize;
+}
+
+#humidity,
+#wind-speed {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 10px;
+}
